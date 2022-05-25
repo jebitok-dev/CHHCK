@@ -57,4 +57,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgment
 
-I hereby acknowledge the creators of [Alchemy Platform - #RoadToWeb3](https://docs.alchemy.com/alchemy/).
+I hereby acknowledge the organizers and sponsors of [ChainLink Hackathon](https://chain.link/hackathon?utm_medium=community&utm_source=developer-expert&utm_campaign=spring-2022-hackathon&utm_content=3).
