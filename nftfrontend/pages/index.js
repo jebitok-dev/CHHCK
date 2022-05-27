@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {ethers} from "ethers";
+import abi from "../Utils/CHHCK.json";
 import Head from "next/head";
 import {useRouter} from "next/router";
 import Image from "next/image";
@@ -7,6 +8,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [currentAccount, setCurrentAccount] = useState("");
+  const contractAddress = "0xDaE1f97ac11fB1f357CD59C18473FE578bFF2d9F";
+  const contractABI = abi.abi;
   const {push} = useRouter();
   // Wallet connection logic
   const isWalletConnected = async () => {
@@ -69,7 +72,9 @@ export default function Home() {
           <button disabled>Connect Wallet to Claim Tokens</button>
         </div>
         <br />
-        <button onClick={() => push()} style={{color: "#000"}}>Claim Tokens</button>
+        <button onClick={() => push()} style={{color: "#000"}}>
+          Claim Tokens
+        </button>
       </main>
 
       <footer className={styles.footer}>
