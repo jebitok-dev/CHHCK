@@ -1,19 +1,20 @@
 # CHHCK NFT Project
 
-<!-- Building NFT project that allows fans of Wizkid to claim NFTs of the title of his upcoming album, his past albums, and major quotes. Wizkid is a top African artist that has a wider fanbase commonly known as WizkidFC. The fans are so loyal to Wizkid and often seen supporting his music via streaming seasons, likes & RTs to new wizkid fans, reposting his IG stories on Twitter, sharing his live performance videos, sharing his achievements over the oast years. Some fans have planned initiatives that benefit the less fortunate in society via the Wizkid FC umbrella some fans have used their talent or skills to make art of Wizkid and his team. With an NFT project it can allow his fans to own some NFT linked to Wizkid and hold it or sell it on NFT trading platforms like OpenSea this can be an initiative to push Wizkid's music career to those yet to know and appreciate his legendary act in his music career. -->
+Building an NFT project that allows artist to mint their album covers and make it available in marketplaces or sites for their fans to mint. Wizkid has a huge fan base that are so loyal and having an NFT project this is close to Wizkid's career would be of great impact to them.
 
 ## Built With
 
 - Solidity
 - Open Zeppelin's ERC721, Base64, Counter, and ERC721URI classes
 - Polygon Mumbai
+- Filebase/IPFS & Web3.Storage
 
 ## Live Demo
 
 ### Deployed & Verified Contract
-
+- [Polygon Scan](https://mumbai.polygonscan.com/address/0xDaE1f97ac11fB1f357CD59C18473FE578bFF2d9F)
 ### NFT on OpenSea Testnet
-
+[OpenSea Testnet](https://testnets.opensea.io/account?tab=collected)
 -
 
 ## Getting Started
@@ -38,6 +39,10 @@ $ npx hardhat run scripts/deploy.js --network mumbai
 $ npx hardhat verify --network mumbai YOUR_SMARTCONTRACT_ADDRESS
 
 ```
+Configuring Web3.Storage
+- upload media/json file to the web3.storage dashboard
+- create the ``metadata.json`` file configure accoring to [OpenSea Metdata]()
+- copy CID of image and add to JSON file ``https://dweb.link/ipfs/YOUR_CID``
 
 ## Author
 
