@@ -1,13 +1,13 @@
 # CHHCK NFT Project
 
-Building an NFT project that allows artist to mint their album covers and make it available in marketplaces or sites for their fans to mint. Wizkid has a huge fan base that are so loyal and having an NFT project this is close to Wizkid's career would be of great impact to them.
+Building an NFT project that allows artist to mint their album covers and make it available in marketplaces or sites for their fans to mint. Wizkid has a huge fan base that are so loyal and having an NFT project this is close to Wizkid's career would be of great impact to them.🦅🦅❤️
 
 ## Built With
 
 - Solidity
 - Open Zeppelin's ERC721, Base64, Counter, and ERC721URI classes
 - Polygon Mumbai
-- Filebase/IPFS & Web3.Storage
+- IPFS & Web3.Storage(uploading image & JSON file)
 
 ## Live Demo
 
@@ -41,7 +41,7 @@ $ npx hardhat verify --network mumbai YOUR_SMARTCONTRACT_ADDRESS
 ```
 Configuring Web3.Storage
 - upload media/json file to the web3.storage dashboard
-- create the ``metadata.json`` file configure accoring to [OpenSea Metdata]()
+- create the ``metadata.json`` file configure according to [OpenSea Metadata](https://docs.opensea.io/docs/metadata-standards)
 - copy CID of image and add to JSON file ``https://dweb.link/ipfs/YOUR_CID``
 
 ## Author
