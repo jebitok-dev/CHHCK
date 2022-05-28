@@ -14,9 +14,9 @@ Building an NFT project that allows artist to mint their album covers and make i
 ### Deployed & Verified Contract
 - [Polygon Scan](https://mumbai.polygonscan.com/address/0xDaE1f97ac11fB1f357CD59C18473FE578bFF2d9F)
 ### To interact with Contract via SafeMint 
-Enter your Address like: 
-- ``0x34d9297629323795CE29190159206cDD81e6B2d2``
-Enter media like: ``https://bafybeih4cdjf3uaxlpodpsndazdnd7zskfwgofwjzh3vwq6g7wbjomwj7i.ipfs.dweb.link/morelovelessego1.json``
+- Enter your Address like: 
+``0x34d9297629323795CE29190159206cDD81e6B2d2``
+- Enter media like: ``https://bafybeih4cdjf3uaxlpodpsndazdnd7zskfwgofwjzh3vwq6g7wbjomwj7i.ipfs.dweb.link/morelovelessego1.json``
 
 ### NFT on OpenSea Testnet
 [OpenSea Testnet](https://testnets.opensea.io/account?tab=collected)
